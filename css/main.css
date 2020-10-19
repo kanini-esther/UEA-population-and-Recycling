@@ -123,3 +123,79 @@ h1{
 .map p{
 	text-align: center;
 }
+.population{
+	background-color: #d4c2ae;
+}
+.population h2,h3{
+	text-align: center;
+	padding-top: 15px;
+	font-size: 25px;
+
+}
+.population p{
+	padding-top: 8px;
+	text-align: center;
+	font-family: roboto;
+}
+.cities{
+  width: 1200px;
+  height: 800px;
+  border-collapse: collapse;
+  margin: 40px auto 0 auto;
+  background-color: #fff;
+
+}
+table,td,th{
+	border:10px solid black;
+
+}
+.cities td, .cities th {
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  border:10px solid black;
+
+
+}
+.cities td{
+	border: 10px solid black;
+	text-align: center;
+}
+.cities th {
+  font-size:40px;
+  font-weight: bolder; 
+  padding-top: 20px;
+  padding-bottom: 14px;
+  text-align: center;
+  background-color:#fff;
+  color: #34495E;
+}
+td img{
+	border-image-repeat: cover;
+}
+.capital-cities{
+	background-image: url(../img/cities.jpg);
+	background-size: cover;
+	height: calc(100vh - 80px);
+}
+.capital-cities h2{
+	text-align: center;
+	padding-top: 60px;
+	font-size: 60px;
+	letter-spacing: 3;
+	font-family: roboto;
+}
+.capital-cities li{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 35px;
+
+}
+
+.impact h6{
+	text-align: center;
+	font-size: 30px;
+	padding: 65px;
+
+}
