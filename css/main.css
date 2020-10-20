@@ -146,19 +146,23 @@ h1{
 
 }
 table,td,th{
-	border:10px solid black;
+	border:8px solid black;
 
 }
+table>tr>:nth-child(2){
+	width: 200px;
+	text-align:center;
+}
 .cities td, .cities th {
-  padding: 8px;
+  padding: 0,0,0,0px;
   font-size: 18px;
   font-weight: bold;
-  border:10px solid black;
+  border:8px solid black;
 
 
 }
 .cities td{
-	border: 10px solid black;
+	border: 8px solid black;
 	text-align: center;
 }
 .cities th {
@@ -171,24 +175,24 @@ table,td,th{
   color: #34495E;
 }
 td img{
-	border-image-repeat: cover;
+	border-image-repeat: auto;
 }
 .capital-cities{
 	background-image: url(../img/cities.jpg);
 	background-size: cover;
-	height: calc(100vh - 80px);
+	height: calc(100vh - 90px);
 }
 .capital-cities h2{
 	text-align: center;
-	padding-top: 60px;
-	font-size: 60px;
+	padding-top: 50px;
+	font-size: 50px;
 	letter-spacing: 3;
 	font-family: roboto;
 }
 .capital-cities li{
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 10px;
+	padding-top: 26px;
+	padding-bottom: 8px;
 	font-size: 35px;
 
 }
@@ -197,5 +201,15 @@ td img{
 	text-align: center;
 	font-size: 30px;
 	padding: 65px;
+	background-color: gray;
+	color: white;
 
+
+}
+.impact p{
+	background-color: gray;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	font-size: 23px;
 }
